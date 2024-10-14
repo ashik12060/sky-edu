@@ -9,10 +9,10 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-green-500 text-white py-4 px-8 flex justify-between items-center">
+    <header className=" bg-gray-50 text-indigo-800 border-b-2 border-indigo-500 py-4 px-8 flex justify-between items-center">
       <div className="flex items-center">
         <img src="/aecc.png" alt="AECC Logo" className="h-10 w-auto" />
-        <h1 className="text-xl font-bold ml-4">AECC</h1>
+        <h1 className="text-xl font-bold ml-4">MyskyEdu</h1>
       </div>
       
       {/* Hamburger icon for mobile */}
@@ -26,7 +26,7 @@ const Header = () => {
 
       {/* Nav links for large screens */}
       <nav className="hidden md:flex space-x-6">
-        <a href="#" className="hover:text-gray-200">Study Abroad</a>
+        <a href="#" className="">Study Abroad</a>
 
         {/* Wrap dropdown and parent in the same container */}
         <div
@@ -34,7 +34,7 @@ const Header = () => {
           onMouseEnter={() => setDropdownOpen(true)}
           onMouseLeave={() => setDropdownOpen(false)}
         >
-          <button className="hover:text-gray-200">
+          <button className="">
             Student Services
           </button>
           {dropdownOpen && (
@@ -46,11 +46,11 @@ const Header = () => {
           )}
         </div>
 
-        <a href="#" className="hover:text-gray-200">Scholarships</a>
-        <a href="#" className="hover:text-gray-200">English Test</a>
-        <a href="#" className="hover:text-gray-200">About Us</a>
-        <a href="#" className="hover:text-gray-200">Latest Updates</a>
-        <a href="#" className="hover:text-gray-200">Contact Us</a>
+        <a href="#" className="">Scholarships</a>
+        <a href="#" className="">English Test</a>
+        <a href="#" className="">About Us</a>
+        <a href="#" className="">Latest Updates</a>
+        <a href="#" className="">Contact Us</a>
       </nav>
 
       {/* Mobile Dropdown */}
