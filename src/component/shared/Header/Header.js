@@ -111,7 +111,7 @@ const Header = () => {
 
         <Link   to='' className="py-2 rounded">Scholarships</Link>
         <Link   to='' className="py-2 rounded">English Test</Link>
-        <Link   to='' className="py-2 rounded">About Us</Link>
+        <Link   to='/about' className="py-2 rounded">About Us</Link>
         <Link   to='' className="py-2 rounded">Latest Updates</Link>
         <Link to='/contact' className="py-2 px-4 rounded">Contact Us</Link>
       </nav>
