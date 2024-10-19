@@ -55,50 +55,52 @@ const Header = () => {
           {/* Hover Dropdown for Desktop */}
           <div className="origin-top-left absolute left-0 w-72 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none hidden group-hover:block z-50">
             <div className="py-1">
-              <Link to="/hajj-packages" className="block px-4 py-2 text-l hover:bg-gray-100  ">
+              <Link to="/uk" className="block px-4 py-2 text-l hover:bg-gray-100  ">
               <span className='hover:border-b-4 hover:border-indigo-800'>Study in Uk</span>
               </Link>
-              <Link to="/umrah-packages" className="block px-4 py-2 text-l hover:bg-gray-100">
+
+              <Link to="/usa" className="block px-4 py-2 text-l hover:bg-gray-100">
              
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in USA</span>
               </Link>
-              <Link to="/visa-process" className="block px-4 py-2 text-l hover:bg-gray-100">
+
+              <Link to="/australia" className="block px-4 py-2 text-l hover:bg-gray-100">
            
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Australia</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l hover:bg-gray-100">
+              <Link to="/new-zeland" className="block px-4 py-2 text-l hover:bg-gray-100">
              
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in NewZealand</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l hover:bg-gray-100">
+              <Link to="/sweden" className="block px-4 py-2 text-l hover:bg-gray-100">
             
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Sweden</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l hover:bg-gray-100">
+              <Link to="/denmark" className="block px-4 py-2 text-l hover:bg-gray-100">
            
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Denmark</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l  hover:bg-gray-100">
+              <Link to="/finland" className="block px-4 py-2 text-l  hover:bg-gray-100">
             
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Finland</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l  hover:bg-gray-100">
+              <Link to="/hungary" className="block px-4 py-2 text-l  hover:bg-gray-100">
               
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Hungary</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l  hover:bg-gray-100">
+              <Link to="/malta" className="block px-4 py-2 text-l  hover:bg-gray-100">
              
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Malta</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l  hover:bg-gray-100">
+              <Link to="/france" className="block px-4 py-2 text-l  hover:bg-gray-100">
              
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in France</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l  hover:bg-gray-100">
+              <Link to="/italy" className="block px-4 py-2 text-l  hover:bg-gray-100">
               
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Italy</span>
               </Link>
-              <Link to="/air-ticket" className="block px-4 py-2 text-l  hover:bg-gray-100">
+              <Link to="/austria" className="block px-4 py-2 text-l  hover:bg-gray-100">
            
               <span className='hover:border-b-4 hover:border-indigo-800'> Study in Austria</span>
               </Link>
@@ -106,8 +108,7 @@ const Header = () => {
           </div>
         </div>
 
-        {/* Wrap dropdown and parent in the same container */}
-        
+       
 
         <Link   to='' className="py-2 rounded">Scholarships</Link>
         <Link   to='' className="py-2 rounded">English Test</Link>
